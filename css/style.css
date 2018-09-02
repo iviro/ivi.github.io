@@ -1,0 +1,205 @@
+/* Здесь будут храниться стили нашего сайта */
+body {
+    margin: 0px;
+    font-family: 'Philosopher';
+    font-size: 18px;
+}
+
+header {
+    padding-top: 59px;
+    padding-bottom: 22px;
+    background-color: #557cf9;
+    color: #fff;
+}
+.header-pretitle {
+    padding-top: 102px;   
+}
+.header-titel {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 36.81px;
+    margin-top: 21px;
+}
+.header-subtitle{
+    margin-top: 20px;
+    margin-bottom: 33px;
+}
+.header-buttom {
+    box-shadow: 10px 17px 34px 6px rgba(41, 64, 141, 0.83);
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    text-decoration: none;
+    color: #072b6f;
+    font-weight: 700;
+    padding: 17px 50px;
+    margin-top: 33px;
+    cursor: pointer;
+}
+header small {
+    display: block;
+    font-size: 12px;
+    margin-top: 27px; /* если ставить 9 рх у меня уползало под кнопку*/
+    text-align-last: center;
+}
+.header-buttom-bloc {
+    max-width: 180px;
+}
+/*    портфолио */
+.portfolio-img {
+    width: 100%;
+}
+.portfolio {
+    background-color: #ddd;
+    padding-top: 44px;
+    padding-bottom: 71px;
+}
+.portfolio-block {
+    background-color: #fff;
+    padding-top: 29px;
+    padding-bottom: 44px;
+}
+.portfolio-title {
+    text-transform: uppercase;
+    color: #1d2f6d;
+    margin-bottom: 10px;
+}
+.portfolio-subtitle {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #8fb7fd;
+    font-size: 14px;
+}
+.portfolio-title, .portfolio-subtitle {
+    text-align: center;
+}
+.portfolio-col-1 {
+    padding-left: 44px;
+}
+.portfolio-col-2 {
+    padding-right: 44px;
+}
+.portfolio-block h3 {
+    color: #1d2f6d;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.portfolio-text {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 400;
+}
+.portfolio-block a {
+    color: #1d2f6d;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+/* подвал */
+footer {
+    background-color: #557cf9;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+.footer-autor{
+    font-style: 24px;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+.footer-text {
+    margin-top: 0;
+}
+.social-bloc {
+    text-align: center;
+}
+.social-bloc a {
+    display: inline-block;
+    margin-right: 13px;
+    margin-left: 13;
+}
+.footer-cta-block {
+    text-align: center;
+}
+.footer-cta {
+    margin-top: 0;
+    margin-bottom: 13px;
+}
+.footer-buttom {
+    display: inline-block; 
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 40px;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .header-pretitle{
+        margin-top: 60px;    
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .header-img {
+        display: none;
+    }
+    .header-pretitle {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+.header-autor, .header-buttom-bloc {
+    display: inline-block;
+
+    margin-left: 50px;
+}
+    .footer-autor {
+        font-style: 18px;
+    }
+    .footer-text {
+        font-style: 14px;
+    }
+    .social-bloc {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .social-bloc img {
+        width: 30px;
+    }
+    .footer-buttom {
+        font-style: 14px;
+        padding: 8px 25px;
+    }
+}
+@media (max-width: 768px) {
+    .portfolio-col-1, .portfolio-col-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .portfolio-col-1 {
+        padding-bottom: 40px;
+    }
+        .social-bloc {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .social-bloc img {
+        width: 20px;
+    }
+    .footer-text {
+        font-style: 10px;
+        margin-top: 10px;
+    }
+    .footer-autor, .footer-text {
+        text-align: center;
+    }
+    .footer-cta{
+        margin-top: 25px;
+    }
+    footer {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}
